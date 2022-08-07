@@ -1,0 +1,88 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    /* margin-top: 20px; */
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll;
+    
+    
+    
+}
+.accontainer{
+    margin-bottom:40px; 
+    box-shadow: 20px 20px 50px 15px grey;
+    border-radius: 2rem;
+    background-color: white;
+    width:95%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+
+}
+.nav{
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom:40px;
+    height: 100px;
+    width:95%;
+    border-radius: 2rem;
+    background-image: linear-gradient(to bottom right, pink, rgb(69, 69, 210));
+    text-align: center;
+}
+.nav a{
+    
+    font-size: 30px;
+    color: white;
+    
+    text-decoration: none;
+}
+
+.ti{
+    font-size: 40px;
+}
+.card{
+    border-radius: 2rem;
+    height:150px;
+    width: 95%;
+    margin-top: 25px;
+    /* background-image: linear-gradient(to bottom right,  rgb(69, 69, 210),pink); */
+    background-color: white;
+    box-shadow: 20px 20px 50px 15px grey;
+    animation-name: example;
+    animation-duration: 4s;
+    display: flex;
+    
+    align-items: center;
+    /* animation-delay: 1s; */
+}
+.tex{
+    
+    /* height: 100%;
+    width: 100%; */
+    font-size: 30px;
+    margin-left: 100px;
+    color: grey;
+    animation:pp;
+    animation-duration: 4s ;
+    transition-delay: 1s;
+}
+@keyframes example {
+    0%{background background-color:white; width:150px;}
+    100%{width:95%;}
+}
+@keyframes pp{
+    0%{display: none;color:white;font-size: 10px;margin-left: 20px;}
+    100%{display: block;color:grey;font-size: 30px;margin-left: 100px;}
+}
+
+/* .card:hover{
+    border-radius: ;
+} */
